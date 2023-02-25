@@ -1,0 +1,37 @@
+.nav{
+    width:100vw;
+    height:73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient( #f7f5f4, #ffecff);
+    animation: navColor 2s ease-in-out alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    
+}
+.Anima_header_div{
+    border: 1px solid black;
+    width:50px;
+    height: 50px;
+    margin:10px;
+    border-radius: 100%;
+    border: 1px solid purple;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: purple;
+    font-weight: normal;
+}
+
+@keyframes navColor {
+  from {
+    transform: translateX(-5px)  scale(0.9);
+  }
+  to {
+    transform: translateX(5px)  scale(1.1);
+  }
+
+}

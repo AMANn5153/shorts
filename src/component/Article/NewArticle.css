@@ -1,0 +1,23 @@
+.article{
+    display: grid;
+    grid-template-rows: 1fr 16fr 2fr;
+}
+
+.heading-new-article{
+    grid-row:1/2;
+    width: 100vw;
+    height: 73px;
+    margin-bottom: 10px;
+}
+.body-new-article{
+    grid-row:2/3;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-div{
+    grid: row 3px / -1px;;
+    height: 100%;
+}
