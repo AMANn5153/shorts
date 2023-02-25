@@ -1,6 +1,6 @@
 import React from 'react'
 import AnimHeader from './AnimHeader'
-import { short} from '../Extras/Arrays'
+import short from '../Extras/Arrays'
 
 
 const Navbar = () => {

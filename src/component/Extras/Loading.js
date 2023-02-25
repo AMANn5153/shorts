@@ -1,6 +1,6 @@
 import React from "react"
 import "./Animation.css"
-import loadString from "./Arrays.js"
+import short from "./Arrays.js"
 import Animation from "./Animation.js"
 
 const Loading = () => {
@@ -13,7 +13,7 @@ const Loading = () => {
                   alignItems:"center"
           }}
           >
-              {loadString.map((val,index)=>{
+              {short.map((val,index)=>{
                   return(
                       <Animation
                           name={val}

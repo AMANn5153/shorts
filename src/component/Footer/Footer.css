@@ -41,3 +41,33 @@
     align-items: center;
 
 }
+@media only screen and (max-width: 768px) {
+    .footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    }
+    .about-us,
+.social-links,
+.contact-us {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid rgb(196,197,187);
+    text-align: center;
+    padding: 20px;
+}
+
+.about-us {
+    order: 1;
+}
+
+.social-links {
+    order: 2;
+}
+
+.contact-us {
+    order: 3;
+}
+
+}

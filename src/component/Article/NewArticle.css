@@ -21,3 +21,28 @@
     grid: row 3px / -1px;;
     height: 100%;
 }
+@media only screen and (max-width: 768px) {
+    .article {
+    display: flex;
+    flex-direction: column;
+    }
+    
+.heading-new-article {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.body-new-article {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div {
+    width: 100%;
+    height: auto;
+}
+}
