@@ -26,9 +26,9 @@
     justify-content: center;
     align-items: center;
     padding:10px;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     font-weight: lighter;
-
+    font-stretch:narrower;
 }
 .card-img{
     grid-row:2/3;
