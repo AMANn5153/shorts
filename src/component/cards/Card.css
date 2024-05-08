@@ -60,6 +60,7 @@ img{
 }
 .card-news:hover > .cards{
     opacity: 0.5;
+    text-decoration : none;
 }
 
 @keyframes cardflip{
