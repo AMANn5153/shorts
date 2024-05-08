@@ -22,10 +22,10 @@ const NewArticle = () => {
         return(
           <Cards
             title={val.title.rendered}
-            image={val.parselyMeta["parsely-image-url"]}
+            image={val.og_image[0].url}
             body={val.excerpt}
-            time={val.parselyMeta["parsely-pub-date"]}
-            author={val.parselyMeta["parsely-author"]}
+            time={val.date}
+            author={val.author}
             link={val.link}
           />
         )
