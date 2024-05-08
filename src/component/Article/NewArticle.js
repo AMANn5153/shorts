@@ -22,7 +22,7 @@ const NewArticle = () => {
         return(
           <Cards
             title={val.title.rendered}
-            image={val.og_image[0].url}
+            image={val.yoast_head_json.og_image[0].url}
             body={val.excerpt}
             time={val.date}
             author={val.author}
